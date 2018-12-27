@@ -15,9 +15,5 @@ branches:
 before_script:
   - cp .env.travis .env
 
-# Test
-script:
-  - ./vendor/bin/phpunit
-
 # deploy
 after_success:
