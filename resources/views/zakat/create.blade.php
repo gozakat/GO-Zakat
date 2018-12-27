@@ -51,8 +51,13 @@
                             <input type="text" name="alamatuser" class="form-control"  >
                         </div>
                         <div class="form-group">
-                            <label for="jenis">Jenis Zakat</label>
-                            <input type="text" name="jenis_zakat" class="form-control"  >
+                            <label for="jenis">Jenis Zakat</label> 
+                                <select name="jenis_zakat" class="form-control">
+                                    <option value="Fitrah">Fitrah</option>
+                                    <option value="Penghasilan">Penghasilan</option>
+                                    <option value="Emas">Emas</option>
+                                </select>
+                            
                         </div>
                         <div class="form-group">
                             <label for="jumlah Rp">Jumlah Rp:</label>

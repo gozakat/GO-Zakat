@@ -16,7 +16,7 @@
                 
                 <div class="col-md-4">
                     <img src="assets/images/almuhajir.png" class="img-rounded" alt="gambar 1" width="220" height="180">
-                    <h3><a href="almuhajir">Masjid Al-Muhajir</a></h3>
+                    <h3><a href="/zakat/create2">Masjid Al-Muhajir</a></h3>
                     <p>Jl. Raya Panyileukan, Cipadung Kidul, Panyileukan, Kota Bandung, Jawa Barat 40614
                     </p>
                 </div>

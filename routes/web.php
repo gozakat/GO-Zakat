@@ -25,10 +25,12 @@ Route::get('/daftarmasjid', function () {
 
 Route::get('/zakat/create','Pembayaran@create');
 Route::post('/zakat','Pembayaran@store');
-Route::get('/zakat/metode_pembayaran','Pembayaran@index');
-
-
 Route::get('/tampil/index','tampilController@index')->name('tampil.index');
+
+
+Route::get('/zakat/create2','PembayaranController@create');
+Route::post('/zakat','PembayaranController@store');
+Route::get('/tampil/index2','TampilController2@index')->name('tampil.index2');
 /* Route::get('/pembayaran/create','Pembayaran@create')->name('/pembayaran.create');
 Route::post('/pembayaran','Pembayaran@store')->name('pembayaran.store'); */
 
@@ -40,7 +42,8 @@ Route::get('/daftarmasjid','Daftarmasjid@index')->name('daftarmasjid');
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
-Route::get('/homelogin', 'HomeController@login')->name('homelogin');
+Route::get('/home', 'HomeController@log')->name('home')->middleware('verified');
+Route::get('/homelogin', 'HomeController@login')->name('homelogin')->middleware('verified');
 
 
 

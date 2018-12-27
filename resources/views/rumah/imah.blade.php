@@ -73,23 +73,27 @@
         <div class="row">
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="#">
-              <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+              <img class="img-fluid" src="assets/images/t1.png" alt="" style="width: 250px; height: 150px;border: 2px solid #6c757d;">
             </a>
+             <h6 style="padding-left: 70px;">Konversi Zakat</h6>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="#">
-              <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+              <img class="img-fluid" src="assets/images/t2.png" alt="" style="width: 250px; height: 150px;border: 2px solid #6c757d;">
             </a>
+            <h6 style="padding-left: 75px;">Pilih Masjid</h6>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="#">
-              <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+              <img class="img-fluid" src="assets/images/t3.png" alt="" style="width: 250px; height: 150px;border: 2px solid #6c757d;">
             </a>
+            <h6 style="padding-left: 75px;">Isi Formulir</h6>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="#">
-              <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+              <img class="img-fluid" src="assets/images/t4.png" alt="" style="width: 250px; height: 150px;border: 2px solid #6c757d;">
             </a>
+            <h6 style="padding-left: 70px;">Konversi Zakat</h6>
           </div>
         </div>
         <!-- /.row -->
@@ -120,7 +124,7 @@
               <img class="rounded-circle img-fluid d-block mx-auto" src="assets/images/idrus1.png" alt="">
               <br>
               <h3>Rifki Mohammad Idrus
-              <h5><small>"No Udud No Life"</small></h5>
+              <h5><small>"Hidup Mulia atau Mati Syahid"</small></h5>
               </h3>
             </div>
             <div class="col-lg-4 col-sm-6 text-center mb-4">

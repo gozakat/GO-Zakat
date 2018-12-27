@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
-
+use App\zakatt;
 class HomeController extends Controller
 {
     /**
@@ -31,5 +31,9 @@ class HomeController extends Controller
         return view('homelogin', ['user'=> $user]);
         return view('homelogin');
     }
-   
+    public function log()
+    {
+        $zakatt = Zakatt::all();
+        return view('home',compact('zakatt'));
+    }
 }

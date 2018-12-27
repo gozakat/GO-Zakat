@@ -6,11 +6,7 @@ use Illuminate\Http\Request;
 use App\Zakat;
 class Pembayaran extends Controller
 {
-    public function index()
-    {
-        return view('zakat/metode_pembayaran');
-    }
-
+    
     public function create()
     {
         return view('zakat/create');
@@ -18,13 +14,7 @@ class Pembayaran extends Controller
 
     public function store(Request $request)
     {
-        
-        $this->validate($request,[
-            'nama'          => 'required',
-            'alamatuser'        => 'required',
-            'jenis_zakat'   => 'required',
-            'jumlah_Rp'     => 'required'
-        ]);
+
         $zakat = new Zakat;
         $zakat->nama=$request->nama;
         $zakat->alamatuser=$request->alamatuser;

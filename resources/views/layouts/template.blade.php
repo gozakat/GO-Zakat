@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse containernav1" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link " href="" ><b>Home </b><span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="/" ><b>Home </b><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/konversi" target="_blank"><b>Konversi Zakat </b><span class="sr-only">(current)</span></a>
@@ -72,16 +72,18 @@
         <div class="row row-30">
           <div class="col-md-4 col-xl-5">
             <div class="pr-xl-4"><a class="brand" href="home"><img class="brand-logo-light" src="{{asset('assets/images/agency/logo-inverse-140x37.png')}}" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-            <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+            <a class="navbar-brand" href="/"><img class="image" border="0" src="{{asset('assets/images/logo.png')}}"  width="250px" height="70px" style="margin-bottom:-10px; margin-top:-15px; padding-top: 15px; "></a>
             <!-- Rights-->
-            <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>All Rights Reserved.</span></p>
+            <br>
+            <br>
+            <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>GO Zakat Bandung-Indonesia</span></p>
           </div>
         </div>
         <div class="col-md-4">
           <h5>Contacts</h5>
           <dl class="contact-list">
             <dt>Address:</dt>
-            <dd>Planet Pluto, no 9 dari matahari, belakang Planet Namex, deket rumah Picolo</dd>
+            <dd>Jl. A.H. Nasution No.105, Cipadung, Cibiru, Bandung, Jawa Barat 40614 </dd>
           </dl>
           <dl class="contact-list">
             <dt>email:</dt>
@@ -89,7 +91,7 @@
           </dl>
           <dl class="contact-list">
             <dt>phones:</dt>
-            <dd><a href="tel:#" class="text-info">089612944086 </a> <span>or</span> <a href="tel:#" class="text-info">Mang Kopi, Mang Udud</a>
+            <dd><a href="tel:#" class="text-info">089612944086 </a>
             </dd>
           </dl>
         </div>
