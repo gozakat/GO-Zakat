@@ -5,15 +5,3 @@ language: php
 # Versi PHP
 php:
   - 7.1
-
-# Branch yang digunakan
-branches:
-  only:
-    - master #-> QA/Staging server
-
-# Build
-before_script:
-  - cp .env.travis .env
-
-# deploy
-after_success:
