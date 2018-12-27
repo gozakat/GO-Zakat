@@ -4,4 +4,20 @@ language: php
 
 # Versi PHP
 php:
-  - 7.1
+  - 7.2
+
+# Branch yang digunakan
+branches:
+  only:
+    - master #-> QA/Staging server
+
+# Build
+before_script:
+  - cp .env.travis .env
+
+# Test
+script:
+  - ./vendor/bin/phpunit
+
+# deploy
+after_success:
