@@ -10,12 +10,10 @@ php:
 branches:
   only:
     - master #-> QA/Staging server
-    - develop #-> DevServer
 
 # Build
 before_script:
   - cp .env.travis .env
-  - composer install --no-interaction
   - php artisan key:generate
 
 # Test
