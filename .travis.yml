@@ -17,7 +17,7 @@ before_script:
 
 # Test
 script:
-  - ./vendor/bin/phpunit: Permission denied
+  - ./vendor/bin/phpunit
 
 # deploy
 after_success:
